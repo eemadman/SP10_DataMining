@@ -29,21 +29,26 @@ class Home01 extends CI_Controller {
 	
 	{
 	    $this->load->view('Head');
-	    //$this->load->view('content');
+	    $this->load->view('content');
 	    $this->load->view('foot');
 	}
-	public function test1()
-	
-	{
-	    $this->load->view('Head');
-	    $this->load->view('content1');
-	    $this->load->view('foot');
-	}
-	public function test2()
+
+	/*public function test2()
 	
 	{
 	    $this->load->view('Head');
 	    $this->load->view('content');
+	    $this->load->view('foot');
+	}*/
+	public function showacc()
+	
+	{
+	    $this->load->model('insertmodel');
+	    $res = $this->insertmodel->get_last_ten_entries();
+	    $data['insert_res'] = $res;
+	    
+	    $this->load->view('Head');
+	    $this->load->view('statistic/show_acc', $data);
 	    $this->load->view('foot');
 	}
 }
