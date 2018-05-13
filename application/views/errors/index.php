@@ -30,7 +30,6 @@
 <body>
 
 
-       
         <!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
@@ -40,8 +39,8 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="W.jpg" alt="Logo"></a>
-                <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>W.jpg" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="./"><img src="<?php echo base_url();?>images/logo2.png" alt="Logo"></a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
@@ -203,17 +202,17 @@
                 <div class="col-sm-5">
                     <div class="user-area dropdown float-right">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="user-avatar rounded-circle" src="images/admin.jpg" alt="User Avatar">
+                            <img class="user-avatar rounded-circle" src="<?php echo base_url();?>images/admin.jpg" alt="User Avatar">
                         </a>
 
                         <div class="user-menu dropdown-menu">
-                                <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a>
+                                <a class="nav-link" href="#"><i class="<?php echo base_url();?>fa fa- user"></i>My Profile</a>
 
-                                <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
+                                <a class="nav-link" href="#"><i class="<?php echo base_url();?>fa fa- user"></i>Notifications <span class="count">13</span></a>
 
-                                <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
+                                <a class="nav-link" href="#"><i class="<?php echo base_url();?>fa fa -cog"></i>Settings</a>
 
-                                <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+                                <a class="nav-link" href="#"><i class="<?php echo base_url();?>fa fa-power -off"></i>Logout</a>
                         </div>
                     </div>
 
@@ -640,7 +639,6 @@
 
         </div> <!-- .content -->
     </div><!-- /#right-panel -->
-
 
     <!-- Right Panel -->
 

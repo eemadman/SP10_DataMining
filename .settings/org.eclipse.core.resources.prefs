@@ -2,4 +2,6 @@ eclipse.preferences.version=1
 encoding//application/config/autoload.php=UTF-8
 encoding//application/config/config.php=UTF-8
 encoding//application/config/database.php=UTF-8
+encoding//application/views/Head.php=UTF-8
+encoding//application/views/foot.php=UTF-8
 encoding//application/views/index.php=UTF-8

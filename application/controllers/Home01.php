@@ -22,5 +22,28 @@ class Home01 extends CI_Controller {
 	
 	{
 		$this->load->view('index');
+	
+	}
+	
+	public function test()
+	
+	{
+	    $this->load->view('Head');
+	    //$this->load->view('content');
+	    $this->load->view('foot');
+	}
+	public function test1()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('content1');
+	    $this->load->view('foot');
+	}
+	public function test2()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('content');
+	    $this->load->view('foot');
 	}
 }
