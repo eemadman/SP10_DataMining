@@ -26,7 +26,7 @@
  <?php 
  //กราฟที่ 1
  ?>
-		<div id='myChart'><a class="zc-ref" href="https://www.zingchart.com/">ลักษณะการชนของรถจักรยานยนต์</a></div>
+		<div id='myChart'><a class="zc-ref" href="https://www.zingchart.com/"></a></div>
 		
    <script type="text/javascript">
   zingchart.THEME="classic";

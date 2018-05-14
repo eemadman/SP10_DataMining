@@ -32,6 +32,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <strong>กรอกรายละเอียดที่ต้องการทราบ</strong> <small> ( เลือกที่กำหนดให้ )</small>
+                                <button type="button" onclick="alert('Hello world!')">Click Me!</button>
                             </div>
                             
                             <div class="card-body card-block">
@@ -60,7 +61,7 @@
  								   <option>สวมหมวกนิรภัย</option>
  								   <option>ไม่สวมหมวกนิรภัย</option>
  								   </div>
- 					
+ 					<button type="button" onclick="alert('Hello world!')">Click Me!</button>
  								   </div>
  								   </div>
- 							
+ 							<button type="button" onclick="alert('Hello world!')">Click Me!</button>
