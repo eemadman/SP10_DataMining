@@ -11,6 +11,13 @@ class insertmodel extends CI_Model {
         return $query->result();
     }
     
+    public function get_chart()
+    {
+        $query = $this->db->query('SELECT * FROM chartstat'); /*ถ้าไม่ใส่10จะเป็นการเรียกดูทั้งtable*/
+        return $query->result();
+    }
+    
+    
     public function insert_entry()
     {
         $this->title    = $_POST['title']; // please read the below note

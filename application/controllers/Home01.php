@@ -21,25 +21,50 @@ class Home01 extends CI_Controller {
 	public function index()
 	
 	{
-		$this->load->view('index');
+		//$this->load->view('index');
 	
 	}
 	
-	public function test()
+	public function main()
 	
 	{
 	    $this->load->view('Head');
 	    $this->load->view('content');
 	    $this->load->view('foot');
 	}
-
-	/*public function test2()
+	
+	public function form()
 	
 	{
 	    $this->load->view('Head');
-	    $this->load->view('content');
+	    $this->load->view('statistic/form');
 	    $this->load->view('foot');
-	}*/
+	}
+	
+	public function chartstatistic()
+	
+	{
+	    $this->load->model('insertmodel');
+	    $res = $this->insertmodel->get_chart();
+	    $data2['insert_res'] = $res;
+	    
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartstatistic', $data2);
+	    $this->load->view('foot');
+	}
+	
+	public function chartcause()
+	
+	{
+	    $this->load->model('insertmodel');
+	    $res = $this->insertmodel->get_last_ten_entries();
+	    $data['insert_res'] = $res;
+	    
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartcause', $data);
+	    $this->load->view('foot');
+	}
+	
 	public function showacc()
 	
 	{
@@ -51,4 +76,6 @@ class Home01 extends CI_Controller {
 	    $this->load->view('statistic/show_acc', $data);
 	    $this->load->view('foot');
 	}
+	
+
 }
