@@ -60,9 +60,26 @@
               <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
             </li>
             <li>
-				<a href="http://localhost/SP10_DataMining/index.php/home01/olo" > <i class="menu-icon fa fa-table"></i>fsdg</a>
+			  <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic2" > <i class="menu-icon fa fa-table"></i>สถานที่เกิดอุบัติเหตุ</a>
             </li>
+            <li>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic3" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+            </li>
+            <li>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic4" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+            </li>
+            <li>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic5" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+            </li>
+            <li>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic6" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+            </li>
+            <li>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic7" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+            </li>
+            
           </ul>
+        </li>
         </li>
         			 <li>
                      <a href="http://localhost/SP10_DataMining/index.php/home01/showacc" > <i class="menu-icon fa fa-table"></i>อัตราการเกิดอุบัติเหตุตามสถานที่</a>

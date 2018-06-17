@@ -2,10 +2,10 @@
  //var_dump($showacc_res);
  ?>
        <div class="breadcrumbs">
-            <div class="col-sm-4">
+            <div class="col-sm-20">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>ลักษณะการชนของรถจักรยานยนต์ ที่เกิดขึ้นในปี พ.ศ.2560 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์</h1>
+                        <h4>ลักษณะการชนของรถจักรยานยนต์ ที่เกิดขึ้นในปี พ.ศ.2560 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์</h4>
                     </div>
                 </div>
             </div>
@@ -17,7 +17,7 @@
             </div>
         </div>
 
-  
+
 	<script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
 		<script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
 		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script>	<script src='//code.jquery.com/jquery-2.1.4.min.js'></script>

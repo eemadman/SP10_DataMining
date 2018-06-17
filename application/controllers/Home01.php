@@ -101,11 +101,53 @@ class Home01 extends CI_Controller {
 	    $this->load->view('foot');
 	}
 	
-	public function olo()
+	public function chartstatistic2()
 	
 	{
 	    $this->load->view('Head');
 	    $this->load->view('statistic/chartstatistic2');
 	    $this->load->view('foot');
 	}
+	
+	public function chartstatistic3()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartstatistic3');
+	    $this->load->view('foot');
+	}
+	
+	public function chartstatistic4()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartstatistic4');
+	    $this->load->view('foot');
+	}
+	
+	public function chartstatistic5()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartstatistic5');
+	    $this->load->view('foot');
+	}
+	
+	public function chartstatistic6()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartstatistic6');
+	    $this->load->view('foot');
+	}
+	
+	public function chartstatistic7()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartstatistic7');
+	    $this->load->view('foot');
+	}
+	
+	
 }
