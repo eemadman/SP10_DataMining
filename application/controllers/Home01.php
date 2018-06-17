@@ -77,5 +77,35 @@ class Home01 extends CI_Controller {
 	    $this->load->view('foot');
 	}
 	
+	public function login()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/login');
+	    $this->load->view('foot');
+	}
+	
+	public function register()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/register');
+	    $this->load->view('foot');
+	}
 
+	public function cuase()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/cuaseacc');
+	    $this->load->view('foot');
+	}
+	
+	public function olo()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartstatistic2');
+	    $this->load->view('foot');
+	}
 }

@@ -1,13 +1,11 @@
  <?php 
  //var_dump($showacc_res);
  ?>
-  
- 
        <div class="breadcrumbs">
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>สถิติลักษณะการชนของรถจักรยานยนต์</h1>
+                        <h1>ลักษณะการชนของรถจักรยานยนต์ ที่เกิดขึ้นในปี พ.ศ.2560 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์</h1>
                     </div>
                 </div>
             </div>
@@ -24,7 +22,7 @@
 		<script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
 		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script>	<script src='//code.jquery.com/jquery-2.1.4.min.js'></script>
  <?php 
- //กราฟที่ 1
+ //กราฟที่  1
  ?>
 		<div id='myChart'><a class="zc-ref" href="https://www.zingchart.com/"></a></div>
 		
@@ -48,7 +46,7 @@ var myConfig = {
     "title": {
         "color": "#606060",
         "background-color": "white",
-        "text": "สถิติ  10 อันดับการเกิด"
+        "text": "ลักษณะการชนของรถจักรยานยนต์ ที่เกิดขึ้นในปี พ.ศ.2560 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์"
     },
     "subtitle": {
         "color": "#606060",
@@ -69,6 +67,9 @@ var myConfig = {
     "scale-x": {
         "values": [
 
+        	 <?php foreach($insert_res as $row){ ?>
+             "<?php echo $row->accident_car ?>",
+             <?php } ?>
             /*"Chrome",
             "Firefox",
             "Safari",
@@ -114,27 +115,27 @@ var myConfig = {
             "padding":8,
             "rules": [
                 {
-                    "rule": "%i==0",
+                    "rule": "%i==1",
                     "border-color": "#1976d2"
                 },
                 {
-                    "rule": "%i==1",
+                    "rule": "%i==2",
                     "border-color": "#424242"
                 },
                 {
-                    "rule": "%i==2",
+                    "rule": "%i==3",
                     "border-color": "#388e3c"
                 },
                 {
-                    "rule": "%i==3",
+                    "rule": "%i==4",
                     "border-color": "#ffa000"
                 },
                 {
-                    "rule": "%i==4",
+                    "rule": "%i==5",
                     "border-color": "#7b1fa2"
                 },
                 {
-                    "rule": "%i==5",
+                    "rule": "%i==6",
                     "border-color": "#c2185b"
                 }
             ]
@@ -160,27 +161,27 @@ var myConfig = {
         },
          "rules": [
                 {
-                    "rule": "%i==0",
+                    "rule": "%i==1",
                     "background-color": "#1976d2"
                 },
                 {
-                    "rule": "%i==1",
+                    "rule": "%i==2",
                     "background-color": "#424242"
                 },
                 {
-                    "rule": "%i==2",
+                    "rule": "%i==3",
                     "background-color": "#388e3c"
                 },
                 {
-                    "rule": "%i==3",
+                    "rule": "%i==4",
                     "background-color": "#ffa000"
                 },
                 {
-                    "rule": "%i==4",
+                    "rule": "%i==5",
                     "background-color": "#7b1fa2"
                 },
                 {
-                    "rule": "%i==5",
+                    "rule": "%i==6",
                     "background-color": "#c2185b"
                 }
             ]
@@ -188,12 +189,12 @@ var myConfig = {
     "series": [
         {
             "values": [
-                56.33,
-                24,
-                10.4,
-                4.8,
-                0.9,
-                0.2
+                60,
+                25,
+                20,
+                10,
+                15,
+                10
             ]
         }
     ]
@@ -289,7 +290,7 @@ zingchart.render({
 	id : 'myChart', 
 	data : myConfig, 
 	height: '550', 
-	width: '1300' 
+	width: '1200' 
 });
 
 zingchart.bind('myChart','node_click',updateChart);

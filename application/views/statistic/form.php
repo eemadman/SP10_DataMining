@@ -28,7 +28,7 @@
 
                 <div class="row">
 
-                    <div class="col-xs-6 col-sm-6">
+                    <div class="col-xs-10 col-sm-10">
                         <div class="card">
                             <div class="card-header">
                                 <strong>กรอกรายละเอียดที่ต้องการทราบ</strong> <small> ( เลือกที่กำหนดให้ )</small>
