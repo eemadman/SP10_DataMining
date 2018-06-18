@@ -2,7 +2,7 @@
             <div class="col-sm-20">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h4>จำนวนการเกิดอุบัติเหตุรายสัปดาห์ (จันทร์-อาทิตย์) ของนักศึกษาชั้นปีที่ 1 – 4 ที่เกิดขึ้นในปี พ.ศ.2560 - 2561 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์</h4>
+                        <h4>จำนวนการเกิดอุบัติเหตุรายสัปดาห์ (จันทร์-อาทิตย์) ที่เกิดขึ้นในปี พ.ศ.2560 - 2561 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์</h4>
                     </div>
                 </div>
             </div>
@@ -14,85 +14,187 @@
             </div>
         </div>
 
+           <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-flat-color-1">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-right">
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+                          </div>
+                      </div>
+                        <h4 class="mb-0">
+                            <span class="count">80</span><class="text-light"> ครั้ง
+                        </h4>
+                        <p class="text-light">จันทร์</p>
 
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
 
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
+                        </div>
 
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                    </div>
 
+                </div>
+          </div>
+            <!--/.col-->
 
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-flat-color-2">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-right">
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+                          </div>
+                      </div>
+                        <h4 class="mb-0">
+                            <span class="count">45</span><class="text-light"> ครั้ง
+                        </h4>
+                        <p class="text-light">พุธ</p>
 
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                            <canvas id="widgetChart2"></canvas>
+                        </div>
 
-<script type="text/javascript">
+                    </div>
+                </div>
+            </div>
+            <!--/.col-->
 
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-flat-color-3">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-right">
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+                          </div>
+                      </div>
+                        <h4 class="mb-0">
+                            <span class="count">10</span><class="text-light"> ครั้ง
+                        </h4>
+                        <p class="text-light">ศุกร์</p>
 
-Highcharts.chart('container', {
-  chart: {
-    type: 'areaspline'
-  },
-  title: {
-    text: ''
-  },
-  legend: {
-    layout: 'vertical',
-    align: 'left',
-    verticalAlign: 'top',
-    x: 150,
-    y: 100,
-    floating: true,
-    borderWidth: 1,
-    backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
-  },
-  xAxis: {
-    categories: [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday',
-      'Sunday'
-    ],
-    plotBands: [{ // visualize the weekend
-      from: 4.5,
-      to: 6.5,
-      color: 'rgba(68, 170, 213, .2)'
-    }]
-  },
-  yAxis: {
-    title: {
-      text: 'จำนวนครั้งในการเกิด'
-    }
-  },
-  tooltip: {
-    shared: true,
-    valueSuffix: ' คน'
-  },
-  credits: {
-    enabled: false
-  },
-  plotOptions: {
-    areaspline: {
-      fillOpacity: 0.5
-    }
-  },
-  series: [{
-	    name: 'นักศึกษาชั้นปีที่  1',
-	    data: [3, 4, 3, 5, 4, 10, 12]
-	  },
-	  {
-		    name: 'นักศึกษาชั้นปีที่  2',
-		    data: [6, 8, 1, 2, 3, 6, 10]
-		  },
-		  {
-			    name: 'นักศึกษาชั้นปีที่  3',
-			    data: [9, 1, 5, 7, 3, 9, 8]
-			  },
-		   {
-    name: 'นักศึกษาชั้นปีที่  4',
-    data: [1, 3, 4, 3, 3, 5, 4]
-  }]
-});
-</script>
+                    </div>
+
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
+
+                        </div>
+                </div>
+            </div>
+            <!--/.col-->
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-flat-color-4">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-right">
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+                          </div>
+                      </div>
+                        <h4 class="mb-0">
+                            <span class="count">15</span><class="text-light"> ครั้ง
+                        </h4>
+                        <p class="text-light">อาทิตย์</p>
+
+                        <div class="chart-wrapper px-3" style="height:70px;" height="70">
+                            <canvas id="widgetChart4"></canvas>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                      <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-flat-color-5">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-right">
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+                          </div>
+                      </div>
+                        <h4 class="mb-0">
+                            <span class="count">85</span><class="text-light"> ครั้ง
+                        </h4>
+                        <p class="text-light">อังคาร</p>
+
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                            <canvas id="widgetChart1"></canvas>
+                        </div>
+
+                    </div>
+
+                </div>
+          </div>
+            <!--/.col-->
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-flat-color-1">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-right">
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+                          </div>
+                      </div>
+                        <h4 class="mb-0">
+                            <span class="count">10</span><class="text-light"> ครั้ง
+                        </h4>
+                        <p class="text-light">พฤหัสบดี</p>
+
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                            <canvas id="widgetChart2"></canvas>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--/.col-->
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-flat-color-2">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-right">
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+                          </div>
+                      </div>
+                        <h4 class="mb-0">
+                            <span class="count">50</span><class="text-light"> ครั้ง
+                        </h4>
+                        <p class="text-light">เสาร์</p>
+
+                    </div>
+
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                            <canvas id="widgetChart3"></canvas>
+                        </div>
+                </div>
+            </div>
+           
+                    </div>
+                </div>
+            </div>

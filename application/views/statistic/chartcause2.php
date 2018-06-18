@@ -36,7 +36,7 @@ Highcharts.chart('container', {
         type: 'column'
     },
     title: {
-    text: 'อุบัติเหตุที่เกี่ยวข้องกับนักศึกษาปี 1'
+    text: 'อุบัติเหตุทางรถจักรยานยนต์ที่เกี่ยวข้องกับนักศึกษาปี 1'
     },
     subtitle: {
 	
@@ -358,7 +358,7 @@ Highcharts.setOptions({
 	 type: 'pie'
 	},
 	title: {
-	 text: 'อุบัติเหตุที่เกี่ยวข้องกับล้มรถจักรยานยนต์'
+	 text: 'เหตุที่เกี่ยวข้องกับล้มรถจักรยานยนต์'
 	},
 	tooltip: {
 	 pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'

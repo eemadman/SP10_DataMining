@@ -27,6 +27,14 @@ class Home01 extends CI_Controller {
 	    $this->load->view('foot');
 	}
 	
+	public function calender()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/Calendar');
+	    $this->load->view('foot');
+	}
+	
 	public function form()
 	
 	{
