@@ -18,14 +18,8 @@ class Home01 extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	
 	public function index()
-	
-	{
-		//$this->load->view('index');
-	
-	}
-	
-	public function main()
 	
 	{
 	    $this->load->view('Head');
@@ -149,5 +143,12 @@ class Home01 extends CI_Controller {
 	    $this->load->view('foot');
 	}
 	
+	public function chartcause2()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/chartcause2');
+	    $this->load->view('foot');
+	}
 	
 }

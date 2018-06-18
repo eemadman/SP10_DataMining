@@ -2,7 +2,7 @@
             <div class="col-sm-20">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h4>ลักษณะการชนของรถจักรยานยนต์ ที่เกิดขึ้นในปี พ.ศ.2560 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์</h4>
+                        <h4>สถานที่ที่เกิดขึ้นอุบัติเหตุรถจักรยานยนต์มากที่สุด 10 อันดับแรก ที่เกิดขึ้นในปี พ.ศ.2560 ของนักศึกษามหาวิทยาลัยวลัยลักษณ์</h4>
                     </div>
                 </div>
             </div>
@@ -30,17 +30,17 @@ Highcharts.chart('container', {
         type: 'column'
     },
     title: {
-        text: 'Browser market shares. January, 2018'
+    text: 'สถานที่ ที่เกิดมากสุด 10 อันดับ'
     },
     subtitle: {
-        text: 'Click the columns to view versions. Source: <a href="http://statcounter.com" target="_blank">statcounter.com</a>'
+	
     },
     xAxis: {
         type: 'category'
     },
     yAxis: {
         title: {
-            text: 'Total percent market share'
+            text: 'จำนวนครั้งในการชน - บนแท่งกราฟแสดง %'
         }
 
     },
@@ -68,39 +68,54 @@ Highcharts.chart('container', {
             "colorByPoint": true,
             "data": [
                 {
-                    "name": "Chrome",
+                    "name": "ถนนหน้ามหาวิทยาลัย",
                     "y": 62.74,
-                    "drilldown": "Chrome"
+                    "drilldown": "ถนนหน้ามหาวิทยาลัย"
                 },
                 {
-                    "name": "Firefox",
+                    "name": "ถนนหน้าโรงพยาบาลท่าศาลา",
                     "y": 10.57,
-                    "drilldown": "Firefox"
+                    "drilldown": "ถนนหน้าโรงพยาบาลท่าศาลา"
                 },
                 {
-                    "name": "Internet Explorer",
+                    "name": "อาคารคอมพิวเตอร์",
                     "y": 7.23,
-                    "drilldown": "Internet Explorer"
+                    "drilldown": "อาคารคอมพิวเตอร์"
                 },
                 {
-                    "name": "Safari",
+                    "name": "อาคารวิชาการ 5",
                     "y": 5.58,
-                    "drilldown": "Safari"
+                    "drilldown": "อาคารวิชาการ 5"
                 },
                 {
-                    "name": "Edge",
+                    "name": "โรงอาหาร 4",
                     "y": 4.02,
-                    "drilldown": "Edge"
+                    "drilldown": "โรงอาหาร 4"
                 },
                 {
-                    "name": "Opera",
+                    "name": "โรงอาหาร 2",
                     "y": 1.92,
-                    "drilldown": "Opera"
+                    "drilldown": "โรงอาหาร 2"
                 },
                 {
-                    "name": "Other",
-                    "y": 7.62,
-                    "drilldown": null
+                    "name": "อาคารเครื่องมือ 3",
+                    "y": 1.92,
+                    "drilldown": "อาคารเครื่องมือ 3"
+                },
+                {
+                    "name": "โรงอาหารกลางคืน",
+                    "y": 1.92,
+                    "drilldown": "โรงอาหารกลางคืน"
+                },
+                {
+                    "name": " โรงอาหารหัวตะพาน",
+                    "y": 1.92,
+                    "drilldown": " โรงอาหารหัวตะพาน"
+                },
+                {
+                    "name": "อาคารเรียน 7",
+                    "y": 1.92,
+                    "drilldown": "อาคารเรียน 7"
                 }
             ]
         }
@@ -108,8 +123,8 @@ Highcharts.chart('container', {
     "drilldown": {
         "series": [
             {
-                "name": "Chrome",
-                "id": "Chrome",
+                "name": "ถนนหน้ามหาวิทยาลัย",
+                "id": "ถนนหน้ามหาวิทยาลัย",
                 "data": [
                     [
                         "v65.0",
@@ -120,7 +135,7 @@ Highcharts.chart('container', {
                         1.3
                     ],
                     [
-                        "v63.0",
+                        "v100.0",
                         53.02
                     ],
                     [
@@ -186,8 +201,8 @@ Highcharts.chart('container', {
                 ]
             },
             {
-                "name": "Firefox",
-                "id": "Firefox",
+                "name": "ถนนหน้าโรงพยาบาลท่าศาลา",
+                "id": "ถนนหน้าโรงพยาบาลท่าศาลา",
                 "data": [
                     [
                         "v58.0",
@@ -232,8 +247,8 @@ Highcharts.chart('container', {
                 ]
             },
             {
-                "name": "Internet Explorer",
-                "id": "Internet Explorer",
+                "name": "อาคารคอมพิวเตอร์",
+                "id": "อาคารคอมพิวเตอร์",
                 "data": [
                     [
                         "v11.0",
@@ -254,8 +269,8 @@ Highcharts.chart('container', {
                 ]
             },
             {
-                "name": "Safari",
-                "id": "Safari",
+                "name": "อาคารวิชาการ5",
+                "id": "อาคารวิชาการ5",
                 "data": [
                     [
                         "v11.0",
@@ -284,8 +299,8 @@ Highcharts.chart('container', {
                 ]
             },
             {
-                "name": "Edge",
-                "id": "Edge",
+                "name": "โรงอาหาร4",
+                "id": "โรงอาหาร4",
                 "data": [
                     [
                         "v16",
@@ -306,8 +321,81 @@ Highcharts.chart('container', {
                 ]
             },
             {
-                "name": "Opera",
-                "id": "Opera",
+                "name": "โรงอาหาร 2",
+                "id": "โรงอาหาร 2",
+                "data": [
+                    [
+                        "v50.0",
+                        0.96
+                    ],
+                    [
+                        "v49.0",
+                        0.82
+                    ],
+                    [
+                        "v12.1",
+                        0.14
+                    ]
+                ]
+            },
+            {
+                "name": "อาคารเครื่องมือ 3",
+                "id": "อาคารเครื่องมือ 3",
+                "data": [
+                    [
+                        "v50.0",
+                        0.96
+                    ],
+                    [
+                        "v49.0",
+                        0.82
+                    ],
+                    [
+                        "v12.1",
+                        0.14
+                    ]
+                ]
+            },
+            
+            {
+                "name": "โรงอาหารกลางคืน",
+                "id": "โรงอาหารกลางคืน",
+                "data": [
+                    [
+                        "v50.0",
+                        0.96
+                    ],
+                    [
+                        "v49.0",
+                        0.82
+                    ],
+                    [
+                        "v12.1",
+                        0.14
+                    ]
+                ]
+            },
+            {
+                "name": "โรงอาหารหัวตะพาน",
+                "id": "โรงอาหารหัวตะพาน",
+                "data": [
+                    [
+                        "v50.0",
+                        0.96
+                    ],
+                    [
+                        "v49.0",
+                        0.82
+                    ],
+                    [
+                        "v12.1",
+                        0.14
+                    ]
+                ]
+            },
+            {
+                "name": "อาคารเรียน 7",
+                "id": "อาคารเรียน 7",
                 "data": [
                     [
                         "v50.0",

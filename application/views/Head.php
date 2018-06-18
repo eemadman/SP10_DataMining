@@ -37,19 +37,32 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="http://localhost/SP10_DataMining/index.php/home01/main"><img src="<?php echo base_url();?>W.jpg" alt="มวล"></a>
-                <a class="navbar-brand hidden" href="http://localhost/SP10_DataMining/index.php/home01/main"><img src="<?php echo base_url();?>W.jpg" alt="มวล"></a>
+                <a class="navbar-brand" href="http://localhost/SP10_DataMining/index.php/home01/index"><img src="<?php echo base_url();?>W.jpg" alt="มวล"></a>
+                <a class="navbar-brand hidden" href="http://localhost/SP10_DataMining/index.php/home01/index"><img src="<?php echo base_url();?>W.jpg" alt="มวล"></a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
 <li class="active">
-                        <br><h2><a href="http://localhost/SP10_DataMining/index.php/home01/main"> <i class=""></i>หน้าหลัก</a></h2>
+                        <br><h2><a href="http://localhost/SP10_DataMining/index.php/home01/index"> <i class=""></i>หน้าหลัก</a></h2>
 </li>
-                    <h3 class="menu-title">เมนู</h3><!-- /.menu-title -->
-                    <li class="">
-                     <a href="http://localhost/SP10_DataMining/index.php/home01/cuase" > <i class="menu-icon fa fa-table"></i>สาเหตุร่วม</a>
-					 <a href="http://localhost/SP10_DataMining/index.php/home01/chartcause" > <i class="menu-icon fa fa-table"></i>กฏความสัมพันธ์</a>
+                    <h3 class="menu-title">เมนู</h3>
+                    <!-- /.menu-title -->
+                  
+ 		<li class="menu-item-has-children dropdown"><a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponentss" data-parent="#exampleAccordion">
+           <i class="menu-icon fa fa-table"></i>
+            <span class="nav-link-text">กฏความสัมพันธ์</span>
+          </a><li>
+          <ul class="sidenav-second-level collapse" id="collapseComponentss">
+            <li>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartcause" > <i class="menu-icon fa fa-table"></i>Support</a>
+          </li>
+          <li>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartcause2" > <i class="menu-icon fa fa-table"></i>Confidence</a>
+          </li>
+          </ul>
+        </li>
+        </li>
 
           <li class="menu-item-has-children dropdown"><a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
             <i class=""><i class="menu-icon fa fa-table"></i>
@@ -57,35 +70,30 @@
           </a><li>
           <ul class="sidenav-second-level collapse" id="collapseComponents">
             <li>
-              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic" > <i class="menu-icon fa fa-table"></i>สถิติลักษณะการเกิดอุบัติเหตุ</a>
             </li>
             <li>
 			  <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic2" > <i class="menu-icon fa fa-table"></i>สถานที่เกิดอุบัติเหตุ</a>
             </li>
             <li>
-              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic3" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic3" > <i class="menu-icon fa fa-table"></i>จำนวนการเกิดอุบัติเหตุ</a>
             </li>
             <li>
-              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic4" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic4" > <i class="menu-icon fa fa-table"></i>สำนักวิชาที่เกิดอุบัติเหตุ</a>
             </li>
             <li>
-              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic5" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic5" > <i class="menu-icon fa fa-table"></i>ชั้นปีที่เกิดอุบัติเหตุ</a>
             </li>
             <li>
-              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic6" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic6" > <i class="menu-icon fa fa-table"></i>อัตราการสวมหมวกนิรภัย</a>
             </li>
             <li>
-              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic7" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุ</a>
+              <a href="http://localhost/SP10_DataMining/index.php/home01/chartstatistic7" > <i class="menu-icon fa fa-table"></i>สถิติการเกิดอุบัติเหตุต่อปีของนักศึกษา</a>
             </li>
             
           </ul>
         </li>
         </li>
-        			 <li>
-                     <a href="http://localhost/SP10_DataMining/index.php/home01/showacc" > <i class="menu-icon fa fa-table"></i>อัตราการเกิดอุบัติเหตุตามสถานที่</a>
-                     <li>
-                    
-
                     
 
 <!-- /.menu-title -->
@@ -93,7 +101,7 @@
                     <!-- /.menu-title -->
 
                         <li><i class="menu-icon fa fa-sign-in"></i><a href="http://localhost/SP10_DataMining/index.php/home01/login">ลงชื่อเข้าใช้</a></li>
-                        <li><i class="menu-icon fa fa-sign-in"></i><a href="http://localhost/SP10_DataMining/index.php/home01/register">สมัครสมาชิก</a></li>
+                        <li><i class="menu-icon fa fa-sign-in"></i><a href="http://localhost/SP10_DataMining/index.php/home01/login" onclick="return confirm('ยืนยันการออกจากระบบ')">ออกจากระบบ</A>
 
               </ul>
           </div><!-- /.navbar-collapse -->
