@@ -1,8 +1,9 @@
+
        <div class="breadcrumbs">
-            <div class="col-sm-1000">
+            <div class="col-sm-1300">
                 <div class="page-header float-left">
                     <div class="page-title">
-                         <h4>---------------------------------  เหตุการณ์ที่เกิดขึ้นพร้อมกันบ่อย (support) -----------------------------</h4>
+                         <center><h4>---------------------- เหตุการณ์ที่เกิดขึ้นพร้อมกันบ่อยประจำปี พ.ศ.2560 (support) ----------------------</h4></center>
                     </div>
                 </div>
             </div>
@@ -13,7 +14,6 @@
                 </div>
             </div>
             </div>
-
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/data.js"></script>
@@ -363,7 +363,7 @@ Highcharts.chart('container1', {
     text: ''
   },
   xAxis: {
-    categories: ['สวมหมวกกันน็อค รถไม่ล้ม + ไม่สวมหมวกกันน็อค รถไม่ล้ม = 0.15 %'],
+    categories: [''],
     tickmarkPlacement: 'on',
     title: {
       enabled: false
@@ -387,19 +387,19 @@ Highcharts.chart('container1', {
     area: {
       stacking: 'normal',
       lineColor: '#666666',
-      lineWidth: 150,
+      lineWidth: 50,
       marker: {
-        lineWidth: 100,
+        lineWidth: 30,
         lineColor: '#666666'
       }
     }
   },
   series: [{
     name: 'สวมหมวกกันน็อค รถล้ม',
-    data: [0.30]
+    data: [65]
   },{
     name: 'ไม่สวมหมวกกันน็อค รถล้ม',
-    data: [0.55]
+    data: [35]
   }]
 });
 

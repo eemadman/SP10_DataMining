@@ -56,10 +56,10 @@
                             </label>
 
                         </div>
-                        <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
+                        <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30"><a href="index">Sign in</a></button>
                         <div class="social-login-content">
                             <div class="social-button">
-                              
+                             
                             </div>
                         </div>
                         <div class="register-link m-t-15 text-center">

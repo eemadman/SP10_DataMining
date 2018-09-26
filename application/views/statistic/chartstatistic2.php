@@ -417,3 +417,9 @@ Highcharts.chart('container', {
 
 
 </script>
+
+
+<br><center><h1>จุดเกิดเหตุตามสถานที่</h1></center><br>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.522292237115!2d99.89520411421236!3d8.641773197314194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3053a1b24f916d7f%3A0xb329e7a0589a4b63!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lin4Lil4Lix4Lii4Lil4Lix4LiB4Lip4LiT4LmM!5e0!3m2!1sth!2sth!4v1529561996104" width="1050" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
