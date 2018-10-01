@@ -166,5 +166,12 @@ class Home01 extends CI_Controller {
 	    $this->load->view('statistic/tables');
 	    $this->load->view('foot');
 	}
+	public function card()
+	
+	{
+	    $this->load->view('Head');
+	    $this->load->view('statistic/card');
+	    $this->load->view('foot');
+	}
 	
 }

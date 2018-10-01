@@ -30,7 +30,7 @@ Highcharts.chart('container', {
         type: 'column'
     },
     title: {
-    text: 'สถานที่ ที่เกิดมากสุด 10 อันดับ'
+    text: 'กราฟช่วงค่าใช่จ่ายตามราคาเบิกค่าสินไหมทดแทน'
     },
     subtitle: {
 	
@@ -40,7 +40,7 @@ Highcharts.chart('container', {
     },
     yAxis: {
         title: {
-            text: 'จำนวนครั้งในการชน - บนแท่งกราฟแสดง %'
+            text: 'บนแท่งกราฟแสดง % ระหว่างแต่ล่ะช่วง'
         }
 
     },
@@ -64,25 +64,25 @@ Highcharts.chart('container', {
 
     "series": [
         {
-            "name": "Browsers",
+            "name": "",
             "colorByPoint": true,
             "data": [
                 {
-                    "name": "ถนนหน้ามหาวิทยาลัย",
+                    "name": "0 - 1000 (บาดเจ็บเล็กน้อย)",
                     "y": 62.74,
                     "drilldown": "ถนนหน้ามหาวิทยาลัย"
                 },
                 {
-                    "name": "ถนนหน้าโรงพยาบาลท่าศาลา",
+                    "name": "1000 - 3500 ( บาดเจ็บปานกลาง )",
                     "y": 10.57,
                     "drilldown": "ถนนหน้าโรงพยาบาลท่าศาลา"
                 },
                 {
-                    "name": "อาคารคอมพิวเตอร์",
+                    "name": "3500 - ๐๐ ( บาดเจ็บรุนแรง )",
                     "y": 7.23,
                     "drilldown": "อาคารคอมพิวเตอร์"
-                },
-                {
+                }
+                /*{
                     "name": "อาคารวิชาการ 5",
                     "y": 5.58,
                     "drilldown": "อาคารวิชาการ 5"
@@ -116,7 +116,7 @@ Highcharts.chart('container', {
                     "name": "อาคารเรียน 7",
                     "y": 1.92,
                     "drilldown": "อาคารเรียน 7"
-                }
+                }*/
             ]
         }
     ],
@@ -417,9 +417,3 @@ Highcharts.chart('container', {
 
 
 </script>
-
-
-<br><center><h1>จุดเกิดเหตุตามสถานที่</h1></center><br>
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.522292237115!2d99.89520411421236!3d8.641773197314194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3053a1b24f916d7f%3A0xb329e7a0589a4b63!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lin4Lil4Lix4Lii4Lil4Lix4LiB4Lip4LiT4LmM!5e0!3m2!1sth!2sth!4v1529561996104" width="1050" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
